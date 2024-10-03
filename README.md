@@ -2,6 +2,7 @@
 Welcome to WanderLust, your platform for booking amazing places and hosting incredible experiences! Whether you're a traveler looking for a cozy place or a host renting out your space, we've got you covered! 🌍✨
 
 🌟 Features
+
 Explore Unique Stays: Browse homes, apartments, and more from all over the world. 🛏️🏖️
 
 Host Your Space: List your property and start earning. 🏠💼
