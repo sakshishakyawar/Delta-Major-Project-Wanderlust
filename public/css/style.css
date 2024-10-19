@@ -123,3 +123,136 @@ body {
   height: 400px;
   width: 80vh;
 }
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .form-control {
+    width: 100%; /* Make the search bar take full width */
+  }
+
+  .search-btn {
+    width: 100%; /* Search button takes full width */
+    margin-top: 0.5rem;
+  }
+
+  .navbar-nav {
+    text-align: start; /* Center navbar items on small screens */
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+  }
+
+  .fa-compass {
+    font-size: 1.5rem; /* Smaller icon */
+  }
+
+  .f-info {
+    flex-direction: column; /* Stack footer elements vertically */
+    height: auto; /* Allow footer to adjust height */
+  }
+
+  .show-img {
+    height: 20vh !important; /* Adjust image height for smaller screens */
+  }
+
+  #map {
+    width: 100%; /* Make map responsive */
+  }
+
+  .btns {
+    flex-direction: column !important; /* Stack buttons vertically */
+  }
+
+  .col-8,
+  .col-6,
+  .col-5,
+  .offset-3 {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 1rem; /* Adds some breathing room on smaller screens */
+  }
+
+  /* Adjust the image height for smaller screens */
+  .show-img {
+    height: 20vh !important; /* Smaller image height */
+  }
+
+  /* Adjust the buttons in the btns section */
+  .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Buttons should take up full width */
+  .btn {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  /* Make the review cards full-width on small screens */
+  .card {
+    width: 100% !important;
+  }
+
+  /* Center the review title and comments */
+  .card-title,
+  .card-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust form labels and textareas */
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  /* Ensure submit button is full-width */
+  .btn-outline-dark {
+    width: 100%;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .navbar-brand {
+    margin-right: 5px; /* Ensure branding remains on the left */
+  }
+
+  .form-control {
+    width: 100%; /* Full-width search bar on mobile */
+  }
+
+  .search-btn {
+    width: 100%; /* Full-width search button on mobile */
+    margin-top: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.5rem; /* Reduce padding for mobile */
+  }
+
+  .fa-compass {
+    font-size: 1.2rem; /* Even smaller icon for mobile */
+  }
+
+  .listing-card {
+    margin-bottom: 1rem !important; /* Reduce card margin */
+  }
+
+  .card-img-top {
+    border-radius: 0.5rem !important; /* Smaller border radius */
+  }
+
+  .f-info {
+    padding: 1rem; /* Add padding around the footer content */
+  }
+}
+
