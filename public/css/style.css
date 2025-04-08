@@ -1,3 +1,4 @@
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif !important;
   display: flex !important;
@@ -217,6 +218,7 @@ body::before {
   height: 400px;
   width: 80vh;
 }
+<<<<<<< HEAD
 
 @media (min-width: 992px) {
   .review-card {
@@ -224,6 +226,8 @@ body::before {
   }
 }
 
+=======
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
 @media (max-width: 768px) {
   .navbar {
     height: auto; /* Let the height adjust based on content */
@@ -263,6 +267,7 @@ body::before {
     width: 100%; /* Make map responsive */
   }
 
+<<<<<<< HEAD
   .btn {
     width: 50% !important;
     margin-bottom: 1rem !important;
@@ -272,6 +277,10 @@ body::before {
     width: 100% !important;
     margin-bottom: 0.5rem;
     margin-top: 1rem !important;
+=======
+  .btns {
+    flex-direction: column !important; /* Stack buttons vertically */
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
   }
 
   .col-8,
@@ -290,16 +299,30 @@ body::before {
 
   /* Adjust the buttons in the btns section */
   .btns {
+<<<<<<< HEAD
     width: 50% !important;
     align-items: center;
     margin-top: 1rem;
     flex-direction: column;
+=======
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Buttons should take up full width */
+  .btn {
+    width: 80%;
+    margin-bottom: 1rem;
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
   }
 
   /* Make the review cards full-width on small screens */
   .card {
     width: 100% !important;
+<<<<<<< HEAD
     margin-left: 0 !important;
+=======
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
   }
 
   /* Center the review title and comments */
@@ -307,9 +330,12 @@ body::before {
   .card-text {
     text-align: center;
   }
+<<<<<<< HEAD
   .review-card {
     max-width: 30%; /* Limit card width on medium screens */
   }
+=======
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
 }
 
 @media (max-width: 576px) {
@@ -318,6 +344,7 @@ body::before {
     font-size: 0.9rem;
   }
 
+<<<<<<< HEAD
   .edit-btn,
   .delete-btn {
     margin-top: 1rem !important;
@@ -326,16 +353,22 @@ body::before {
     padding: 0.5rem 0.8rem;
   }
 
+=======
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
   textarea {
     font-size: 0.9rem;
   }
 
   /* Ensure submit button is full-width */
   .btn-outline-dark {
+<<<<<<< HEAD
     width: 50%;
   }
   .review-card {
     max-width: 45%; /* Limit card width on small screens */
+=======
+    width: 100%;
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
   }
 }
 
@@ -374,3 +407,7 @@ body::before {
     padding: 1rem; /* Add padding around the footer content */
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9c7b554f23747221ff548bc024299f264cc9c464
