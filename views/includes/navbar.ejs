@@ -18,6 +18,52 @@
     padding: 0.5rem 3rem 0.5rem 3rem;
     font-size: 1rem;
   }
+  .search-inp {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #1a1a1a;
+    width: 100%;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3),
+      0 4px 8px rgba(0, 0, 0, 0.05); /* super soft base shadow */
+    transition: all 0.3s ease;
+    transform: scale(1);
+    caret-color: #81776e;
+  }
+
+  .search-inp::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+    transition: opacity 0.3s ease;
+  }
+
+  .search-inp:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.03);
+    box-shadow: 0 16px 16px rgba(129, 119, 110, 0.5),
+      0 8px 8px rgb(129, 119, 110, 0.5); /* very subtle red glow */
+  }
+
+  .search-inp:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.55);
+    transform: scale(1.05);
+    border-color: rgba(254, 66, 77, 0.2);
+    box-shadow: 0 3px 3px 3px rgba(129, 119, 110, 0.5),
+      0 10px 20px rgb(129, 119, 110, 0.5);
+  }
+
+  .search-inp:focus::placeholder {
+    opacity: 0.2;
+  }
+  .name {
+    font-weight: bolder;
+    color: #454844 !important;
+  }
 </style>
 
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
@@ -35,7 +81,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="/listings">Explore</a>
+        <a class="nav-link name" href="/listings">Airbnb</a>
       </div>
       <div class="navbar-nav ms-auto">
         <form
